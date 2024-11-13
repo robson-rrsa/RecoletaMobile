@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="106dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="Logo da Empresa"
+        android:src="@drawable/login_logo_recoleta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="377dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="76dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:indicatorLeft="?android:attr/listPreferredItemPaddingLeft"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
